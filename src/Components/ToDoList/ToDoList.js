@@ -1,5 +1,6 @@
 import React from "react";
-import ToDo from "./ToDo";
+import ToDo from "../ToDo/ToDo";
+import './ToDoList.scss'
 
 
 const ToDoList = ({toDoList, handleToggle, handleFilter}) => {

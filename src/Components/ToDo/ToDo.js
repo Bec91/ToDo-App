@@ -1,5 +1,5 @@
 import React from "react";
-import '../App.scss'
+import './ToDo.scss'
 
 const ToDo = ({todo, handleToggle}) => {
     const handleClick = (e) => {

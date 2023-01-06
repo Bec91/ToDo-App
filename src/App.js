@@ -3,9 +3,9 @@ import './App.scss';
 // MOCK DATA
 import data from './data.json'
 // COMPONENTS
-import Header from './Components/Header';
-import ToDoList from './Components/ToDoList';
-import ToDoForm from './Components/ToDoForm';
+import Header from './Components/Header/Header';
+import ToDoList from './Components/ToDoList/ToDoList';
+import ToDoForm from './Components/ToDoForm/ToDoForm';
 
 function App() {
 
