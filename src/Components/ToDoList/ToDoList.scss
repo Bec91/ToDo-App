@@ -1,1 +1,15 @@
 @use '../../Styles/App.scss' as *;
+
+.toDoListForm {
+    display: flex;
+    flex-direction: column;
+
+    &__button {
+        border-radius: 1rem;
+        border-style: none;
+        padding: 0.75rem;
+        position: relative;
+        left: 3rem;
+        width: 50%;
+    }
+}

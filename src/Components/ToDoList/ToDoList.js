@@ -5,18 +5,24 @@ import './ToDoList.scss'
 
 const ToDoList = ({toDoList, handleToggle, handleFilter}) => {
     return(
-        <div>
-            {toDoList.map(todo => {
-                return (
-                    <ToDo todo={todo} handleFilter={handleFilter} handleToggle={handleToggle} />
-                )
-            })}
-            <button 
+        <div className="toDoListForm">
+            <button
+                className="toDoListForm__button"
                 style={{margin: '20px'}}
                 onClick={handleFilter}
             >
-                Delete
+                Remove Finished Tasks
             </button>
+
+            {toDoList.map(todo => {
+                return (
+                    <ToDo 
+                        todo={todo} 
+                        handleFilter={handleFilter} 
+                        handleToggle={handleToggle} 
+                    />
+                )
+            })}
         </div>
     )
 }

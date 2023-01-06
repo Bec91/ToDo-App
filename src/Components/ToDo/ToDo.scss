@@ -1,5 +1,18 @@
 @use '../../Styles/App.scss' as *;
 
 .strike {
-    text-decoration: line-through;
+  border: 2px solid lightgreen;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-decoration: line-through;
+  text-decoration-color: lightgreen;
+  }
+  .todo {
+    border: 2px solid lightcoral;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
   }

@@ -7,16 +7,16 @@ const ToDo = ({todo, handleToggle}) => {
         handleToggle(e.currentTarget.id)
     }
     return(
-        <div
-            className={todo.complete ? "todo strike" : "todo"}
-            id={todo.id}
-            key={todo.id + todo.task}
-            name="todo"
-            value={todo.id}
-            onClick={handleClick}
-        >
-            {todo.task}
-        </div>
+            <div
+                className={todo.complete ? "strike" : "todo"}
+                id={todo.id}
+                key={todo.id + todo.task}
+                name="todo"
+                value={todo.id}
+                onClick={handleClick}
+            >
+                {todo.task}
+            </div>
     )
 }
 
