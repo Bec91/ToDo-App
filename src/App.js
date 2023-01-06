@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.scss';
+import './Styles/App.scss';
 // MOCK DATA
 import data from './data.json'
 // COMPONENTS
